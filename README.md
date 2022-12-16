@@ -2,7 +2,7 @@
 
 Matheus Willian Nunes Maciel,
 Túllyo Honorio Araujo da Silva,
-Diego Braga Rodrigues,
+Diego Braga Rodrigues e
 Fábio Barros de Souza Neto.
 
 # Introdução:
