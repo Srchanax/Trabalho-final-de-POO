@@ -1,9 +1,9 @@
 # Integrantes:
 
-Matheus Willian Nunes Maciel
-Túllyo Honorio Araujo da Silva
-Diego Braga Rodrigues
-Fábio Barros de Souza Neto
+Matheus Willian Nunes Maciel,
+Túllyo Honorio Araujo da Silva,
+Diego Braga Rodrigues,
+Fábio Barros de Souza Neto.
 
 # Introdução:
 
