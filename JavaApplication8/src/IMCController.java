@@ -80,36 +80,46 @@ public class IMCController implements Initializable {
         double res = calc.calc();
         if(h & m == false){
             if( 20 > res){
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está abaixo da média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText("seu peso está abaixo da média recomendada!");
             }
             else if(res >= 20 & res <= 24.9){
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está na média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText("seu peso está na média recomendada!");
             }
             else if(res >= 25 & res <= 29.9){
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está um pouco da média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText("seu peso está um pouco da média recomendada!");
             }
             else if(res >= 30  & res <= 39.9){
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está acima da média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText("seu peso está acima da média recomendada!");
             }
             else{
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está bem acima da média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText("seu peso está bem acima da média recomendada!");
             }
         }
         else{
             if( 19 > res){
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está abaixo da média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText(" seu peso está abaixo da média recomendada!");
             }
             else if(res >= 19 & res <= 23.9){
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está na média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText(" seu peso está na média recomendada!");
             }
             else if(res >= 24 & res <= 28.9){
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está um pouco da média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText(" seu peso está um pouco da média recomendada!");
             }
             else if(res >= 29  & res <= 38.9){
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está acima da média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText(" seu peso está acima da média recomendada!");
             }
             else{
-                Res.setText("seu IMC é "+ df.format(res)+ " seu peso está bem acima da média recomendada!");
+                Res.setText("seu IMC é "+ df.format(res));
+                label2.setText(" seu peso está bem acima da média recomendada!");
             }
         }
         
