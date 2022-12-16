@@ -25,6 +25,8 @@ Este projeto tem intuito de introduzir uma experiência no javafx, com uma simpl
 
 7. Cilque em "File", "Open project" e abra o projeto.
 
-8. Clique com o botão direito no projeto, vá em "proprietes", vá em libraries no canto esquerdo da tela e adicione a biblioteca JFX 16 tanto no ClassPath quanto no ModulePath. Depois vá em "Run" e copie o seguinte texto
+8. Clique com o botão direito no projeto, vá em "proprietes", vá em libraries no canto esquerdo da tela e adicione a biblioteca JFX 16 tanto no ClassPath quanto no ModulePath. Depois vá em "Run" e copie o seguinte texto --module-path "o endereço das bibliotecas de JFX 16" --add-modules javafx.controls,javafx.fxml e pronto é só abrir o arquivo fxml do trabalho.
 
-9.
+# Considerações finais
+
+         Durante o desenvolvimento do projeto percebemos que Javafx é mais complicado que o java, entretanto, a melhoria de interface e o desenvolvimento do layout para os programas é bem melhor e torna satisfatório o esforço utilizado com uma uma bela aparência no programa e bem mais convidativo ao usuário que for utilizalo, tornando o assim além de outros recursos uma ótima ferramenta para alguns projetos mais complexos e mais significativos.
