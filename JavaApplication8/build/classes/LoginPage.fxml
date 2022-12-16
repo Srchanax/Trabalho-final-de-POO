@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="470.0" style="-fx-background-color: #a9a9ab;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginPageController">
+   <children>
+      <VBox alignment="CENTER" layoutX="109.0" layoutY="30.0" prefHeight="340.0" prefWidth="252.0" spacing="30.0">
+         <children>
+            <Label fx:id="lUser" text="Usuario" textFill="#001eff" />
+            <TextField fx:id="txtUsuario" />
+            <Label fx:id="lPass" prefHeight="21.0" prefWidth="51.0" text="Senha" textFill="#0009ff" />
+            <PasswordField fx:id="txtSenha" prefHeight="31.0" prefWidth="286.0" />
+            <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnLogin" style="-fx-background-color: blue;" text="Login" textFill="WHITE" />
+            <Label fx:id="labelForgot" onMouseClicked="#ForgotPass" text="Esqueceu a senha?" textFill="#1a00ff" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

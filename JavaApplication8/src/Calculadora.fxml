@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="475.0" prefWidth="323.0" style="-fx-background-color: linear-gradient(cyan,#66FF5E,);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculadoraController">
+   <children>
+      <TextField fx:id="tfVisor" alignment="CENTER_RIGHT" layoutX="24.0" layoutY="40.0" prefHeight="90.0" prefWidth="291.0" style="-fx-border-radius: 16px;">
+         <font>
+            <Font name="Arial" size="42.0" />
+         </font></TextField>
+      <VBox layoutX="37.0" layoutY="179.0" prefHeight="296.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnAC" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #F14B4B;" text="AC" />
+            <Button fx:id="btn7" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="7" />
+            <Button fx:id="btn4" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="4" />
+            <Button fx:id="btn1" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="1" />
+            <Button fx:id="btn0" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="0" />
+         </children>
+      </VBox>
+      <VBox layoutX="109.0" layoutY="179.0" prefHeight="296.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnC" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #F14B4B;" text="C" />
+            <Button fx:id="btn8" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="8" />
+            <Button fx:id="btn5" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="5" />
+            <Button fx:id="btn2" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="2" />
+            <Button fx:id="btnP" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="." />
+         </children>
+      </VBox>
+      <VBox layoutX="176.0" layoutY="179.0" prefHeight="296.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnPc" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="\%" textFill="#787878" />
+            <Button fx:id="btn9" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="9" />
+            <Button fx:id="btn6" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="6" />
+            <Button fx:id="btn3" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: #ADADAD;" text="3" />
+            <Button fx:id="btnR" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="=" />
+         </children>
+      </VBox>
+      <VBox layoutX="251.0" layoutY="179.0" prefHeight="296.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnD" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="/" textFill="#3c3c3c" />
+            <Button fx:id="btnM" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="*" />
+            <Button fx:id="btnS" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: orange;" text="-">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnA" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="50.0" style="-fx-background-color: orange;" text="+">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
